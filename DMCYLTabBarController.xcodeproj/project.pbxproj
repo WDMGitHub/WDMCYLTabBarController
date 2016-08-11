@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AC077AA599655994C553E36 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43BFB854E74F970B66A5DAF /* libPods.a */; };
+		67EC6DBE1D5AF80A006CA31F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6DBD1D5AF80A006CA31F /* main.m */; };
+		67EC6DC11D5AF80A006CA31F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6DC01D5AF80A006CA31F /* AppDelegate.m */; };
+		67EC6DC41D5AF80A006CA31F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6DC31D5AF80A006CA31F /* ViewController.m */; };
+		67EC6DC71D5AF80A006CA31F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EC6DC51D5AF80A006CA31F /* Main.storyboard */; };
+		67EC6DC91D5AF80A006CA31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EC6DC81D5AF80A006CA31F /* Assets.xcassets */; };
+		67EC6DCC1D5AF80A006CA31F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EC6DCA1D5AF80A006CA31F /* LaunchScreen.storyboard */; };
+		67EC6DD71D5AF80A006CA31F /* DMCYLTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6DD61D5AF80A006CA31F /* DMCYLTabBarControllerTests.m */; };
+		67EC6DE21D5AF80A006CA31F /* DMCYLTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6DE11D5AF80A006CA31F /* DMCYLTabBarControllerUITests.m */; };
+		67EC6DF21D5B03D1006CA31F /* DMTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6DF11D5B03D1006CA31F /* DMTabBarControllerConfig.m */; };
+		67EC6DFF1D5B05E6006CA31F /* DMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6DFE1D5B05E6006CA31F /* DMHomeViewController.m */; };
+		67EC6E021D5B05F6006CA31F /* DMMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6E011D5B05F6006CA31F /* DMMessageViewController.m */; };
+		67EC6E051D5B060C006CA31F /* DMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6E041D5B060C006CA31F /* DMMineViewController.m */; };
+		67EC6E081D5B0637006CA31F /* DMSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6E071D5B0637006CA31F /* DMSameCityViewController.m */; };
+		67EC6E0B1D5B064F006CA31F /* DMDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6E0A1D5B064F006CA31F /* DMDetailsViewController.m */; };
+		67EC6E0E1D5B0A0B006CA31F /* DMPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EC6E0D1D5B0A0B006CA31F /* DMPlusButtonSubclass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67EC6DD31D5AF80A006CA31F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EC6DB11D5AF80A006CA31F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EC6DB81D5AF80A006CA31F;
+			remoteInfo = DMCYLTabBarController;
+		};
+		67EC6DDE1D5AF80A006CA31F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EC6DB11D5AF80A006CA31F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EC6DB81D5AF80A006CA31F;
+			remoteInfo = DMCYLTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31C39D248ECDB2D42E46B6B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		434BCE56371692164B090422 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		67EC6DB91D5AF80A006CA31F /* DMCYLTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMCYLTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EC6DBD1D5AF80A006CA31F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67EC6DBF1D5AF80A006CA31F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67EC6DC01D5AF80A006CA31F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67EC6DC21D5AF80A006CA31F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67EC6DC31D5AF80A006CA31F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67EC6DC61D5AF80A006CA31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67EC6DC81D5AF80A006CA31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67EC6DCB1D5AF80A006CA31F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67EC6DCD1D5AF80A006CA31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67EC6DD21D5AF80A006CA31F /* DMCYLTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMCYLTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EC6DD61D5AF80A006CA31F /* DMCYLTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCYLTabBarControllerTests.m; sourceTree = "<group>"; };
+		67EC6DD81D5AF80A006CA31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67EC6DDD1D5AF80A006CA31F /* DMCYLTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMCYLTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EC6DE11D5AF80A006CA31F /* DMCYLTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCYLTabBarControllerUITests.m; sourceTree = "<group>"; };
+		67EC6DE31D5AF80A006CA31F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67EC6DF01D5B03D1006CA31F /* DMTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTabBarControllerConfig.h; sourceTree = "<group>"; };
+		67EC6DF11D5B03D1006CA31F /* DMTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTabBarControllerConfig.m; sourceTree = "<group>"; };
+		67EC6DFD1D5B05E6006CA31F /* DMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHomeViewController.h; sourceTree = "<group>"; };
+		67EC6DFE1D5B05E6006CA31F /* DMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHomeViewController.m; sourceTree = "<group>"; };
+		67EC6E001D5B05F6006CA31F /* DMMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMessageViewController.h; sourceTree = "<group>"; };
+		67EC6E011D5B05F6006CA31F /* DMMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMessageViewController.m; sourceTree = "<group>"; };
+		67EC6E031D5B060C006CA31F /* DMMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMineViewController.h; sourceTree = "<group>"; };
+		67EC6E041D5B060C006CA31F /* DMMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMineViewController.m; sourceTree = "<group>"; };
+		67EC6E061D5B0637006CA31F /* DMSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSameCityViewController.h; sourceTree = "<group>"; };
+		67EC6E071D5B0637006CA31F /* DMSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSameCityViewController.m; sourceTree = "<group>"; };
+		67EC6E091D5B064F006CA31F /* DMDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDetailsViewController.h; sourceTree = "<group>"; };
+		67EC6E0A1D5B064F006CA31F /* DMDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMDetailsViewController.m; sourceTree = "<group>"; };
+		67EC6E0C1D5B0A0B006CA31F /* DMPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPlusButtonSubclass.h; sourceTree = "<group>"; };
+		67EC6E0D1D5B0A0B006CA31F /* DMPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPlusButtonSubclass.m; sourceTree = "<group>"; };
+		D43BFB854E74F970B66A5DAF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67EC6DB61D5AF80A006CA31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC077AA599655994C553E36 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC6DCF1D5AF80A006CA31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC6DDA1D5AF80A006CA31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67EC6DB01D5AF80A006CA31F = {
+			isa = PBXGroup;
+			children = (
+				67EC6DBB1D5AF80A006CA31F /* DMCYLTabBarController */,
+				67EC6DD51D5AF80A006CA31F /* DMCYLTabBarControllerTests */,
+				67EC6DE01D5AF80A006CA31F /* DMCYLTabBarControllerUITests */,
+				67EC6DBA1D5AF80A006CA31F /* Products */,
+				897BB6BF78CFFA9F9675A92D /* Pods */,
+				ABD051CDB36737BC16F055DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67EC6DBA1D5AF80A006CA31F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6DB91D5AF80A006CA31F /* DMCYLTabBarController.app */,
+				67EC6DD21D5AF80A006CA31F /* DMCYLTabBarControllerTests.xctest */,
+				67EC6DDD1D5AF80A006CA31F /* DMCYLTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67EC6DBB1D5AF80A006CA31F /* DMCYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6DBF1D5AF80A006CA31F /* AppDelegate.h */,
+				67EC6DC01D5AF80A006CA31F /* AppDelegate.m */,
+				67EC6DF01D5B03D1006CA31F /* DMTabBarControllerConfig.h */,
+				67EC6DF11D5B03D1006CA31F /* DMTabBarControllerConfig.m */,
+				67EC6DF31D5B0422006CA31F /* Classes */,
+				67EC6DBC1D5AF80A006CA31F /* Supporting Files */,
+			);
+			path = DMCYLTabBarController;
+			sourceTree = "<group>";
+		};
+		67EC6DBC1D5AF80A006CA31F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6DC21D5AF80A006CA31F /* ViewController.h */,
+				67EC6DC31D5AF80A006CA31F /* ViewController.m */,
+				67EC6DC51D5AF80A006CA31F /* Main.storyboard */,
+				67EC6DC81D5AF80A006CA31F /* Assets.xcassets */,
+				67EC6DCA1D5AF80A006CA31F /* LaunchScreen.storyboard */,
+				67EC6DCD1D5AF80A006CA31F /* Info.plist */,
+				67EC6DBD1D5AF80A006CA31F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67EC6DD51D5AF80A006CA31F /* DMCYLTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6DD61D5AF80A006CA31F /* DMCYLTabBarControllerTests.m */,
+				67EC6DD81D5AF80A006CA31F /* Info.plist */,
+			);
+			path = DMCYLTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		67EC6DE01D5AF80A006CA31F /* DMCYLTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6DE11D5AF80A006CA31F /* DMCYLTabBarControllerUITests.m */,
+				67EC6DE31D5AF80A006CA31F /* Info.plist */,
+			);
+			path = DMCYLTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		67EC6DF31D5B0422006CA31F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6DF91D5B055C006CA31F /* View */,
+				67EC6DF41D5B055C006CA31F /* Module */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		67EC6DF41D5B055C006CA31F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6DF51D5B055C006CA31F /* Home */,
+				67EC6DF61D5B055C006CA31F /* Message */,
+				67EC6DF71D5B055C006CA31F /* Mine */,
+				67EC6DF81D5B055C006CA31F /* SameCity */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		67EC6DF51D5B055C006CA31F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6DFD1D5B05E6006CA31F /* DMHomeViewController.h */,
+				67EC6DFE1D5B05E6006CA31F /* DMHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		67EC6DF61D5B055C006CA31F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6E001D5B05F6006CA31F /* DMMessageViewController.h */,
+				67EC6E011D5B05F6006CA31F /* DMMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		67EC6DF71D5B055C006CA31F /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6E031D5B060C006CA31F /* DMMineViewController.h */,
+				67EC6E041D5B060C006CA31F /* DMMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		67EC6DF81D5B055C006CA31F /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6E061D5B0637006CA31F /* DMSameCityViewController.h */,
+				67EC6E071D5B0637006CA31F /* DMSameCityViewController.m */,
+				67EC6E091D5B064F006CA31F /* DMDetailsViewController.h */,
+				67EC6E0A1D5B064F006CA31F /* DMDetailsViewController.m */,
+			);
+			path = SameCity;
+			sourceTree = "<group>";
+		};
+		67EC6DF91D5B055C006CA31F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67EC6E0C1D5B0A0B006CA31F /* DMPlusButtonSubclass.h */,
+				67EC6E0D1D5B0A0B006CA31F /* DMPlusButtonSubclass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		897BB6BF78CFFA9F9675A92D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				434BCE56371692164B090422 /* Pods.debug.xcconfig */,
+				31C39D248ECDB2D42E46B6B3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABD051CDB36737BC16F055DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D43BFB854E74F970B66A5DAF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67EC6DB81D5AF80A006CA31F /* DMCYLTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EC6DE61D5AF80A006CA31F /* Build configuration list for PBXNativeTarget "DMCYLTabBarController" */;
+			buildPhases = (
+				468735C914356C74DFE57AC3 /* Check Pods Manifest.lock */,
+				67EC6DB51D5AF80A006CA31F /* Sources */,
+				67EC6DB61D5AF80A006CA31F /* Frameworks */,
+				67EC6DB71D5AF80A006CA31F /* Resources */,
+				9C560DF456D4F7B679E4BBD3 /* Embed Pods Frameworks */,
+				71BE5EB930ED07DC956E93BB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMCYLTabBarController;
+			productName = DMCYLTabBarController;
+			productReference = 67EC6DB91D5AF80A006CA31F /* DMCYLTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67EC6DD11D5AF80A006CA31F /* DMCYLTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EC6DE91D5AF80A006CA31F /* Build configuration list for PBXNativeTarget "DMCYLTabBarControllerTests" */;
+			buildPhases = (
+				67EC6DCE1D5AF80A006CA31F /* Sources */,
+				67EC6DCF1D5AF80A006CA31F /* Frameworks */,
+				67EC6DD01D5AF80A006CA31F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67EC6DD41D5AF80A006CA31F /* PBXTargetDependency */,
+			);
+			name = DMCYLTabBarControllerTests;
+			productName = DMCYLTabBarControllerTests;
+			productReference = 67EC6DD21D5AF80A006CA31F /* DMCYLTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67EC6DDC1D5AF80A006CA31F /* DMCYLTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EC6DEC1D5AF80A006CA31F /* Build configuration list for PBXNativeTarget "DMCYLTabBarControllerUITests" */;
+			buildPhases = (
+				67EC6DD91D5AF80A006CA31F /* Sources */,
+				67EC6DDA1D5AF80A006CA31F /* Frameworks */,
+				67EC6DDB1D5AF80A006CA31F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67EC6DDF1D5AF80A006CA31F /* PBXTargetDependency */,
+			);
+			name = DMCYLTabBarControllerUITests;
+			productName = DMCYLTabBarControllerUITests;
+			productReference = 67EC6DDD1D5AF80A006CA31F /* DMCYLTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67EC6DB11D5AF80A006CA31F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Demin;
+				TargetAttributes = {
+					67EC6DB81D5AF80A006CA31F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8XKX7L493N;
+					};
+					67EC6DD11D5AF80A006CA31F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 67EC6DB81D5AF80A006CA31F;
+					};
+					67EC6DDC1D5AF80A006CA31F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 67EC6DB81D5AF80A006CA31F;
+					};
+				};
+			};
+			buildConfigurationList = 67EC6DB41D5AF80A006CA31F /* Build configuration list for PBXProject "DMCYLTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67EC6DB01D5AF80A006CA31F;
+			productRefGroup = 67EC6DBA1D5AF80A006CA31F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67EC6DB81D5AF80A006CA31F /* DMCYLTabBarController */,
+				67EC6DD11D5AF80A006CA31F /* DMCYLTabBarControllerTests */,
+				67EC6DDC1D5AF80A006CA31F /* DMCYLTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67EC6DB71D5AF80A006CA31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC6DCC1D5AF80A006CA31F /* LaunchScreen.storyboard in Resources */,
+				67EC6DC91D5AF80A006CA31F /* Assets.xcassets in Resources */,
+				67EC6DC71D5AF80A006CA31F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC6DD01D5AF80A006CA31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC6DDB1D5AF80A006CA31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		468735C914356C74DFE57AC3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71BE5EB930ED07DC956E93BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C560DF456D4F7B679E4BBD3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67EC6DB51D5AF80A006CA31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC6E0E1D5B0A0B006CA31F /* DMPlusButtonSubclass.m in Sources */,
+				67EC6E0B1D5B064F006CA31F /* DMDetailsViewController.m in Sources */,
+				67EC6DF21D5B03D1006CA31F /* DMTabBarControllerConfig.m in Sources */,
+				67EC6E051D5B060C006CA31F /* DMMineViewController.m in Sources */,
+				67EC6E021D5B05F6006CA31F /* DMMessageViewController.m in Sources */,
+				67EC6DC41D5AF80A006CA31F /* ViewController.m in Sources */,
+				67EC6E081D5B0637006CA31F /* DMSameCityViewController.m in Sources */,
+				67EC6DC11D5AF80A006CA31F /* AppDelegate.m in Sources */,
+				67EC6DFF1D5B05E6006CA31F /* DMHomeViewController.m in Sources */,
+				67EC6DBE1D5AF80A006CA31F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC6DCE1D5AF80A006CA31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC6DD71D5AF80A006CA31F /* DMCYLTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EC6DD91D5AF80A006CA31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EC6DE21D5AF80A006CA31F /* DMCYLTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67EC6DD41D5AF80A006CA31F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67EC6DB81D5AF80A006CA31F /* DMCYLTabBarController */;
+			targetProxy = 67EC6DD31D5AF80A006CA31F /* PBXContainerItemProxy */;
+		};
+		67EC6DDF1D5AF80A006CA31F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67EC6DB81D5AF80A006CA31F /* DMCYLTabBarController */;
+			targetProxy = 67EC6DDE1D5AF80A006CA31F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67EC6DC51D5AF80A006CA31F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EC6DC61D5AF80A006CA31F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67EC6DCA1D5AF80A006CA31F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67EC6DCB1D5AF80A006CA31F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67EC6DE41D5AF80A006CA31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67EC6DE51D5AF80A006CA31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67EC6DE71D5AF80A006CA31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434BCE56371692164B090422 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DMCYLTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demin.DMCYLTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		67EC6DE81D5AF80A006CA31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C39D248ECDB2D42E46B6B3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DMCYLTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demin.DMCYLTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		67EC6DEA1D5AF80A006CA31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DMCYLTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demin.DMCYLTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMCYLTabBarController.app/DMCYLTabBarController";
+			};
+			name = Debug;
+		};
+		67EC6DEB1D5AF80A006CA31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DMCYLTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demin.DMCYLTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMCYLTabBarController.app/DMCYLTabBarController";
+			};
+			name = Release;
+		};
+		67EC6DED1D5AF80A006CA31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DMCYLTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demin.DMCYLTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DMCYLTabBarController;
+			};
+			name = Debug;
+		};
+		67EC6DEE1D5AF80A006CA31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DMCYLTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Demin.DMCYLTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DMCYLTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67EC6DB41D5AF80A006CA31F /* Build configuration list for PBXProject "DMCYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EC6DE41D5AF80A006CA31F /* Debug */,
+				67EC6DE51D5AF80A006CA31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EC6DE61D5AF80A006CA31F /* Build configuration list for PBXNativeTarget "DMCYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EC6DE71D5AF80A006CA31F /* Debug */,
+				67EC6DE81D5AF80A006CA31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EC6DE91D5AF80A006CA31F /* Build configuration list for PBXNativeTarget "DMCYLTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EC6DEA1D5AF80A006CA31F /* Debug */,
+				67EC6DEB1D5AF80A006CA31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EC6DEC1D5AF80A006CA31F /* Build configuration list for PBXNativeTarget "DMCYLTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EC6DED1D5AF80A006CA31F /* Debug */,
+				67EC6DEE1D5AF80A006CA31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67EC6DB11D5AF80A006CA31F /* Project object */;
+}
